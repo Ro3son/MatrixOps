@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrizes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="module" src="JS/main.js"></script>
+</head>
+<body class="body__content">
+    <header class="header__content">
+        <h1 class="header__title">Matrizes</h1>
+        <p class="paragraph__content">
+            <span class="definition__content--bold">Definição:</span>
+            Conjunto de números reais (ou complexos) dispostos em forma de tabela, isto é, distribuídos em
+            <span class="definition__content--bold">m</span> linhas e
+            <span class="definition__content--bold">n</span> colunas, sendo números
+            <span class="definition__content--bold">m e n</span> naturais não nulos.
+        </p>
+    </header>
+    <main class="main__content">
+        <h1 class="main__title">Operações com Matrizes</h1>
+        <section class="main__section section-addition">
+            <h2 class="section__title">Adição</h2>
+            <form class="form">
+                <div class="form__flex flex-container">
+                    <div class="form__flex flex-item">
+                        <table class="table table-a">
+                            <caption class="table__caption">Matriz A</caption>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-ma" for="a11">a11</label>
+                                    <input class="input input-ma input_add" id="a11" type="number" name="a11" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-ma" for="a12">a12</label>
+                                    <input class="input input-ma input_add" id="a12" type="number" name="a12" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-ma" for="a21">a21</label>
+                                    <input class="input input-ma input_add" id="a21" type="number" name="a21" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-ma" for="a22">a22</label>
+                                    <input class="input input-ma input_add" id="a22" type="number" name="a22" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="form__flex flex-item">
+                        <table class="table table-b">
+                            <caption class="table__caption">Matriz B</caption>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mb" for="b11">b11</label>
+                                    <input class="input input-mb input_add" id="b11" type="number" name="b11" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-b">
+                                <td class="table table-cell">
+                                    <label class="label label-mb" for="b12">b12</label>
+                                    <input class="input input-mb input_add" id="b12" type="number" name="b12" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mb" for="b21">b21</label>
+                                    <input class="input input-mb input_add" id="b21" type="number" name="b21" required>
+                                </td>
+                            </tr>
+                            <tr class="table table-b">
+                                <td class="table table-cell">
+                                    <label class="label label-mb" for="b22">b22</label>
+                                    <input class="input input-mb input_add" id="b22" type="number" name="b22" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <button class="button button__addition" type="button" value="button">Somar</button>
+            </form>
+            <div class="div__container__output-add"></div>
+        </section>
+        <section class="main__section section-by-scalar">
+            <h2 class="section__title title-multiplication-by-scalar">Multiplicação por Escalar</h2>
+            <form class="form">
+                <div class="form__flex flex-container">
+                    <div class="form__flex flex-item">
+                        <table class="table table-mbs-a">
+                            <caption class="table__caption">Matriz A</caption>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mbs-a" for="a11-mbs-a">a11</label>
+                                    <input class=" input input-mbs-a" id="a11-mbs-a" type="number" name="a11-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-row">
+                                    <label class="label label-mbs-a" for="a12-mbs-a">a12</label>
+                                    <input class=" input input-mbs-a" id="a12-mbs-a" type="number" name="a12-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mbs-a" for="a21-mbs-a">a21</label>
+                                    <input class=" input input-mbs-a" id="a21-mbs-a" type="number" name="a21-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mbs-a" for="a22-mbs-a">a22</label>
+                                    <input class=" input input-mbs-a" id="a22-mbs-a" type="number" name="a22-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mbs-a" for="a31-mbs-a">a31</label>
+                                    <input class=" input input-mbs-a" id="a31-mbs-a" type="number" name="a31-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr class="table table-row">
+                                <td class="table table-cell">
+                                    <label class="label label-mbs-a" for="a32-mbs-a">a32</label>
+                                    <input class=" input input-mbs-a" id="a32-mbs-a" type="number" name="a32-mbs-a"
+                                        required>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="form_flex flex-item scalar-k">
+                        <label class="label label-scalar-k" for="scalar-k">K =</label>
+                        <input class="input input-scalar-k" id="scalar-k" type="number" name="scalar-k" required>
+                    </div>
+                </div>
+                <button class="button button__multiply-by-scalar" type="button">Escalar</button>
+            </form>
+            <div class="div__container__output-scalar"></div>
+        </section>
+    </main>
+</body>
+</html>

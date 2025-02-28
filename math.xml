@@ -1,0 +1,147 @@
+<operations>
+    <addition id="addition">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>A</mi>
+            <mo>+</mo>
+            <mi>B</mi>
+            <mo> = </mo>
+            <mrow>
+                <mo>[</mo>
+                <mtable>
+                    <mtr>
+                        <mtd>
+                            <mi id="ma11">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="ma12">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="ma21">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="ma22">0</mi>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+            <mo> + </mo>
+            <mrow>
+                <mo>[</mo>
+                <mtable>
+                    <mtr>
+                        <mtd>
+                            <mi id="mb11">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="mb12">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="mb21">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="mb22">0</mi>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+            <mo> = </mo>
+            <mrow>
+                <mo>[</mo>
+                <mtable>
+                    <mtr>
+                        <mtd>
+                            <mi id="ma11_mb11">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="ma12_mb12">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="ma21_mb21">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="ma22_mb22">0</mi>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+        </math>
+    </addition>
+    <scalar id ="scalar">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi id="k">K</mi>
+            <mo>*</mo>
+            <mi>A</mi>
+            <mo> = </mo>
+            <mrow>
+                <mo>[</mo>
+                <mtable>
+                    <mtr>
+                        <mtd>
+                            <mi id="mas11">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="mas12">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="mas21">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="mas22">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="mas31">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="mas32">0</mi>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+            <mo> = </mo>
+            <mrow>
+                <mo>[</mo>
+                <mtable>
+                    <mtr>
+                        <mtd>
+                            <mi id="p11">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="p12">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="p21">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="p22">0</mi>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mi id="p31">0</mi>
+                        </mtd>
+                        <mtd>
+                            <mi id="p32">0</mi>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+        </math>
+    </scalar>
+</operations>

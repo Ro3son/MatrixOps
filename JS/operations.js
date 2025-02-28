@@ -22,7 +22,15 @@ export const multiplyByScalar = (...args) => {
 
     const scalar = document.getElementById('scalar-k');
 
-    let k = parseInt(scalar.value);
+    let k = scalar.value;
+
+    if (k == '' || k == null) {
+
+        return false;
+
+    } else {
+        k = parseInt(k);
+    }
 
     element = args[0];
 

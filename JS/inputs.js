@@ -26,9 +26,9 @@ export const InputsForAddition = () => {
 
         for (let value of array) {
 
-            if (value === '') {
+            if (value == '' || value == null) {
 
-                throw new Error('Empty Input Field.');
+                return false;
 
             } else {
 
@@ -68,9 +68,9 @@ export const InputsForMultiplyByScalar = () => {
 
         for (let value of array) {
 
-            if (value === '') {
+            if (value == '' || value == null) {
 
-                throw new Error('Empty Input Field.');
+                return false;
 
             } else {
 

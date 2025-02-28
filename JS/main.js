@@ -42,7 +42,7 @@ const createAndAppendDiv = (element) => {
     };
 };
 
-let disabled = false;
+let disabled = true;
 
 const buttonAdd = document.querySelector('.button__addition');
 buttonAdd.addEventListener('click', (event) => {
@@ -52,13 +52,11 @@ buttonAdd.addEventListener('click', (event) => {
     const element_div_add = document.querySelector('.div__container__output-add');
 
     if (disabled) {
-        event.target.disabled = true;
-        disabled = false;
-    } else {
         createAndAppendDiv(element_div_add);
         requestAndFetchAdd();
         InputsForAddition();
-        disabled = true;
+        createClearButton(element_div_add);
+        event.target.disabled = true;
     };
 });
 
@@ -70,13 +68,10 @@ buttonScalar.addEventListener('click', (event) => {
     const element_div_scalar = document.querySelector('.div__container__output-scalar');
 
     if (disabled) {
-        event.target.disabled = true;
-        disabled = true;
-    } else {
         createAndAppendDiv(element_div_scalar);
         requestAndFetchScalar();
         InputsForMultiplyByScalar();
         createClearButton(element_div_scalar);
-        disabled = true;
+        event.target.disabled = true;
     };
 });

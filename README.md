@@ -1,12 +1,12 @@
 # Operações com Matrizes
 
-### Descrição
+### Descrição:
 
 Projeto realizado durante o curso de Sistemas Para Internet no IFMT.
 
 Disciplinas envolvidas: Matemática Aplicada (Matrizes), Fundamentos de Programação (Algoritmos e Estrutura de Dados), Programação Web Front-End.
 
-**Funcionalidades**
+**Funcionalidades:**
 
 - Adição
 
